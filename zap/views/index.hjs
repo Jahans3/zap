@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+//# sourceMappingURL=/js/app-bundle.js.map
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io();
+    </script>
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>Welcome to {{ title }}</p>
+
+    <!-- React entry point -->
+    <div id="entry">
+
+    </div>
+
+
+    <script src="js/app-bundle.js"></script>
+  </body>
+</html>

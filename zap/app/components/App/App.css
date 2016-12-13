@@ -1,0 +1,19 @@
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.messageBox {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.inputBox {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.message {
+    display: block;
+    font-size: 24px;
+}
